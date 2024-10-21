@@ -1,0 +1,22 @@
+.main-header__dropdown {
+  position: absolute;
+  top: 3.5rem;
+  left: 0;
+  right: 0;
+  background-color: #53efc3;
+  transition: all 200ms ease-in-out;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 0.5rem;
+  width: 24rem;
+  z-index: 1;
+  padding: 1rem 0;
+  border-bottom: 3px solid gray;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.main-header__item:hover .main-header__dropdown {
+  opacity: 1;
+  visibility: visible;
+  top: 6.5rem;
+}

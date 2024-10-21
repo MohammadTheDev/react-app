@@ -1,0 +1,23 @@
+.courses-top-bar__selection {
+  cursor: pointer;
+  position: relative;
+}
+
+.courses-top-bar__selection-list {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  box-shadow: 0 0 6px #00000033;
+  background-color: white;
+  width: 100%;
+  padding: 0.8rem 0;
+  border-radius: 0 0 0.3rem 0.3rem;
+  border-bottom: 0.3rem solid;
+  z-index: 9999;
+  transition: all 400ms ease;
+}
+
+.courses-top-bar__selection:hover .courses-top-bar__selection-list {
+  visibility: visible;
+  opacity: 1;
+}
